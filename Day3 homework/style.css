@@ -1,0 +1,49 @@
+/* Reset some default styles for consistency */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the main app container */
+  .app-container {
+    font-family: Arial, sans-serif;
+    /* text-align: center; */
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  /* Style the content within the main container */
+  .content {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Style the heading */
+  .content h1 {
+    font-size: 24px;
+    color: rgb(54, 54, 54);
+    margin-bottom: 10px;
+  }
+  
+  /* Style paragraphs */
+  .content p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Style links */
+  .content a {
+    color: #0074d9;
+    text-decoration: none;
+  }
+  
+  /* Add hover effect for links */
+  .content a:hover {
+    text-decoration: underline;
+  }
+
+ 
+  
